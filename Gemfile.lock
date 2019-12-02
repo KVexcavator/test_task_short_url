@@ -2,6 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     byebug (11.0.1)
+    murmurhash3 (0.1.6)
+    unleash (0.1.6)
+      murmurhash3 (~> 0.1.6)
     webrick (1.6.0)
 
 PLATFORMS
@@ -9,6 +12,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  unleash (~> 0.1.6)
   webrick
 
 BUNDLED WITH
